@@ -9,7 +9,7 @@ As an example, with the keywords "Covid" and "Education", you should be able to 
 A collection of 10,000 documents includes the news text of informative sites, scientific texts related to the subject in reliable sites. (An attempt was made to create this dataset by assigning initial sources from the contents of the years 2019 to 2020)
 
 ## steps:
-1.Crawling 1000 pages 
+1. Crawling 1000 pages
 2. Using Lucene, creating an index on data collected (stop words removed)
 3. Executing the queries on the index with the tf-idf method and Language Model with the Smoothing method (Jelinec-Mercer) and with 2 different arbitrary values for the alpha parameter.
 4. Calculating the MAP and NDCG evaluation criteria for two methods
